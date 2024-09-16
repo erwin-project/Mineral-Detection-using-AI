@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['-', 'biotite', 'bornite', 'chrysocolla', 'malachite', 'muscovite', 'pyrite', 'quartz']
+
+roboflow:
+  workspace: erwin-fernanda-mmwsv
+  project: mineral-detection-ijdls
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/erwin-fernanda-mmwsv/mineral-detection-ijdls/dataset/1
